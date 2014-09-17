@@ -1,9 +1,8 @@
-Midset Calculator
-======
+# Midset Calculator
 
 This is a command line utility for calculating midsets.
 
-### Building it
+## Building it
 
 ```
 git clone https://github.com/springworm/midset.git
