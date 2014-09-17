@@ -1,3 +1,3 @@
 #!/bin/bash
 make
-cp midset.sh ~/Desktop
+cp midset.command ~/Desktop
