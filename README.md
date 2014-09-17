@@ -13,9 +13,9 @@ make
 
 If you want to "install" it figure it out yourself.
 
-### How to use
+## How to use
 
-## Input
+### Input
 
 The executable file will be named midset and will accept a file to read your dots from. Alternatively, it will read standard input, allowing things like piping data to it.
 
@@ -23,7 +23,7 @@ The executable file will be named midset and will accept a file to read your dot
 ./midset mydots.txt
 ```
 
-## Options
+### Options
 
 In addition, there are a couple of fancy options:
 ```
@@ -37,4 +37,4 @@ In addition, there are a couple of fancy options:
 
 ### Format for dots
 
-[side] [steps] [in/out] [yard] [steps] [front/back] [fh/bh/fs/bs]
+`[side] [steps] [in/out] [yard] [steps] [front/back] [fh/bh/fs/bs]`
