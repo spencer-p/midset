@@ -160,3 +160,16 @@ void uglyPrintDot(Dot *dot) {
 void printPoint(Point *point) {
     printf("%.2f, %.2f\n", point->y, point->x);
 }
+
+double distanceDot(Dot *one, Dot *two) {
+    Point *pone = getPoint(one);
+    Point *ptwo = getPoint(two);
+    double d = distancePoint(pone, ptwo);
+    free(pone);
+    free(ptwo);
+    return d;
+}
+
+double distancePoint(Point *one, Point *two) {
+    return sqrt(pow(one->x-two->x, 2)+pow(one->y-two->y, 2));
+}

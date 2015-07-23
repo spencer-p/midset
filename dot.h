@@ -39,6 +39,8 @@ Point *getPoint(Dot *dot);
 Dot *getDot(Point *point);
 Dot *midDot(Dot *one, Dot *two);
 Point *midPoint(Point *one, Point *two);
+double distanceDot(Dot *one, Dot *two);
+double distancePoint(Point *one, Point *two);
 
 void printDot(Dot *dot);
 void uglyPrintDot(Dot *dot);
