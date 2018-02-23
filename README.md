@@ -1,22 +1,26 @@
 # Midset Calculator
 
-This is a command line utility for calculating midsets.
+This is a command line utility for calculating midsets. Marching bands and drum
+corps march between coordinates on a field and knowing the midpoint between two
+coordinates is beneficial to the accuracy of the performers. However,
+coordinates on a football field are not normal cartesian coordinates, so these
+calculations can be tricky. This calculator takes care of the hard work.
 
 ## Building it
 
 ```
-git clone https://github.com/springworm/midset.git
+git clone https://github.com/spencer-p/midset.git
 cd midset
 make
 ```
 
-If you want to "install" it figure it out yourself.
-
-## How to use
+## Using it
 
 ### Input
 
-The executable file will be named midset and will accept a file to read your dots from. Alternatively, it will read standard input, allowing things like piping data to it.
+The executable file will be named midset and will accept a file to read your
+dots from. Alternatively, it will read standard input, allowing things like
+piping data to it.
 
 ```
 ./midset mydots.txt
